@@ -12,7 +12,7 @@ def result(a, m, n):
     print('{}'.format('\nMatrix\n'))
     for row in range(m):
         for column in range(0, n):
-            print('{:>2.2f} | '.format(a[row][column]), end=' ');
+            print('{:<.2f}| '.format(a[row][column]), end=' ');
         print('\n''\t')
     return
 
